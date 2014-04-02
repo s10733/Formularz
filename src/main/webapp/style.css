@@ -1,0 +1,66 @@
+body {
+    /* czcionki na potrzeby ilustracji */
+    font-family : "courier new", monospace;
+    font-weight : bold;
+    font-size   : 16pt;
+    height: 100%;
+}
+
+/*************** LAYOUT ***************/
+
+strona {
+    margin     : auto;
+    border     : 1px solid black;
+    padding    : 0px;
+    width      : 758px;
+
+    background : rgb(234,233,200);
+}
+
+naglowek {
+    margin     : 0px;
+    border     : none;
+    padding    : 0px;
+    width      : 758px; /* zbêdne */
+
+    background : rgb(187,187,255);
+}
+
+Lewo {
+    margin  : 0px;
+    border  : none;
+    padding : 0px;
+    width   : 180px;
+    float   : left;
+
+  
+
+    background : rgb(254,200,197);
+}
+
+prawo {
+    margin        : 0px;
+    border        : none;
+    border-top    : 1px solid black;
+    border-bottom : 1px solid black;
+    border-left   : 1px solid black;
+    padding       : 0px;
+    width         : 577px;
+
+    clear         : none;
+    float         : right;
+
+    background    : rgb(248,250,184);
+}
+
+stopka {
+    margin      : 0px;
+    border      : none;
+    padding     : 7px 0px 7px 0px;
+    width       : 758px;   /* zbêdne */
+
+    clear       : both;
+
+    background  : rgb(175,245,198);
+}
+
